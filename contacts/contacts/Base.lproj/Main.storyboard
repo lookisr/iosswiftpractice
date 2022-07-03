@@ -110,6 +110,10 @@
                                         <outlet property="phoneLabel" destination="Wc9-YO-VgB" id="sPS-HT-dZk"/>
                                     </connections>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="R99-Jd-JWi" id="96g-ua-Plj"/>
+                                    <outlet property="phoneLabel" destination="Wc9-YO-VgB" id="4uI-P1-Pzu"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
