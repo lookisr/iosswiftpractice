@@ -56,7 +56,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.right.square.fill" catalog="system" title="Login"/>
                                 <connections>
-                                    <action selector="ButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jOR-J5-3SX"/>
+                                    <action selector="buttonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eYP-mT-Pn7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -66,7 +66,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="U6D-zK-oDG"/>
                     <connections>
-                        <outlet property="authorizationfield" destination="m4I-FA-yen" id="3yZ-62-XsR"/>
+                        <outlet property="authorizationField" destination="m4I-FA-yen" id="3yZ-62-XsR"/>
                         <outlet property="loginButton" destination="67A-rd-t64" id="QOK-zj-k6r"/>
                     </connections>
                 </viewController>
@@ -124,12 +124,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxx-dH-kkK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="717" y="80"/>
+            <point key="canvasLocation" x="835" y="80"/>
         </scene>
-        <!--Wrong Number View Controller-->
+        <!--View Controller-->
         <scene sceneID="F1W-ey-uKg">
             <objects>
-                <viewController storyboardIdentifier="wrongNumberViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QAL-3g-5VP" customClass="wrongNumberViewController" customModule="contacts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="wrongNumberViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QAL-3g-5VP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6ay-ft-QqL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,7 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3tA-Xt-Zf9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1353.6231884057972" y="79.6875"/>
+            <point key="canvasLocation" x="19" y="737"/>
         </scene>
         <!--Contact Info View Controller-->
         <scene sceneID="J31-ah-zfn">
@@ -204,7 +204,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mqa-Di-gEz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2102.898550724638" y="79.6875"/>
+            <point key="canvasLocation" x="1554" y="80"/>
         </scene>
     </scenes>
     <resources>
