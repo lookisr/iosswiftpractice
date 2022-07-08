@@ -13,7 +13,6 @@
 		DD2A22BD2871BDC4002D8FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A22BB2871BDC4002D8FB0 /* Main.storyboard */; };
 		DD2A22BF2871BDC6002D8FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2A22BE2871BDC6002D8FB0 /* Assets.xcassets */; };
 		DD2A22C22871BDC6002D8FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A22C02871BDC6002D8FB0 /* LaunchScreen.storyboard */; };
-		DD2A22CE2871DF9F002D8FB0 /* wrongNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A22CD2871DF9F002D8FB0 /* wrongNumberViewController.swift */; };
 		DD2A22D22871EFE5002D8FB0 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A22D12871EFE5002D8FB0 /* ContactTableViewController.swift */; };
 		DD2A22D42871F290002D8FB0 /* ContactViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A22D32871F290002D8FB0 /* ContactViewCell.swift */; };
 		DD2A22D62871FD49002D8FB0 /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A22D52871FD49002D8FB0 /* ContactInfoViewController.swift */; };
@@ -28,7 +27,6 @@
 		DD2A22BE2871BDC6002D8FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2A22C12871BDC6002D8FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2A22C32871BDC6002D8FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD2A22CD2871DF9F002D8FB0 /* wrongNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wrongNumberViewController.swift; sourceTree = "<group>"; };
 		DD2A22D12871EFE5002D8FB0 /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 		DD2A22D32871F290002D8FB0 /* ContactViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewCell.swift; sourceTree = "<group>"; };
 		DD2A22D52871FD49002D8FB0 /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 				DD2A22B52871BDC4002D8FB0 /* AppDelegate.swift */,
 				DD2A22B72871BDC4002D8FB0 /* SceneDelegate.swift */,
 				DD2A22B92871BDC4002D8FB0 /* ViewController.swift */,
-				DD2A22CD2871DF9F002D8FB0 /* wrongNumberViewController.swift */,
 				DD2A22D32871F290002D8FB0 /* ContactViewCell.swift */,
 				DD2A22D12871EFE5002D8FB0 /* ContactTableViewController.swift */,
 				DD2A22D52871FD49002D8FB0 /* ContactInfoViewController.swift */,
@@ -152,7 +149,6 @@
 			files = (
 				DD2A22BA2871BDC4002D8FB0 /* ViewController.swift in Sources */,
 				DD2A22B62871BDC4002D8FB0 /* AppDelegate.swift in Sources */,
-				DD2A22CE2871DF9F002D8FB0 /* wrongNumberViewController.swift in Sources */,
 				DD2A22D62871FD49002D8FB0 /* ContactInfoViewController.swift in Sources */,
 				DD2A22D22871EFE5002D8FB0 /* ContactTableViewController.swift in Sources */,
 				DD2A22B82871BDC4002D8FB0 /* SceneDelegate.swift in Sources */,
